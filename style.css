@@ -223,13 +223,17 @@ address a{
 		padding:8px 50px;
 	}
 	
-	.fooditems span:hover + img
-	{
-		display:none;
-	}
 	.favplace
 	{
 		background-color:#F9E8D5;
+	}
+}
+
+@media only screen and (max-width: 768px)
+{
+	.fooditems span:hover + img
+	{
+		display:none;
 	}
 }
 
